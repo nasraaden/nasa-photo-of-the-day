@@ -1,5 +1,5 @@
 import React from "react";
-import NasaPhotos from './components/NasaPhotos';
+import NasaGrid from './components/NasaGrid';
 import "./App.css";
 
 
@@ -12,7 +12,7 @@ function App() {
         Read through the instructions in the README.md file to build your NASA
         app! Have fun 🚀!
       </p> */}
-      <NasaPhotos />
+      <NasaGrid />
     </div>
   );
 }

@@ -3,7 +3,7 @@ import NasaCard from "./NasaCard";
 import axios from "axios";
 
 
-export default function NasaPhotos() {
+export default function NasaGrid() {
     const [photos, setPhotos] = useState([]);
     useEffect(() => {
         axios.get('https://api.nasa.gov/planetary/apod?api_key=Un1jlMLB9a2w7EodSSUnmxr1kPVSqQZ0GNNaLCvs')
